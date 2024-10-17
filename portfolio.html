@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Md. Iftida Hasan Alif</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        /* Additional Styles for Portfolio */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .portfolio-item {
+            background: #333;
+            color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+
+        .portfolio-item h3 {
+            color: #007ced;
+            margin-bottom: 10px;
+        }
+
+        .portfolio-item p {
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .view-project {
+            display: inline-block;
+            margin-top: 10px;
+            background: #007ced;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .view-project:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <img src="E:/website cv/sdasd.png" alt="profile" class="logo-img">
+                    <div class="logo-text">Md. Iftida Hasan Alif</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="container">
+                <h1>My Portfolio</h1>
+                <p>Here are some of the projects I've worked on:</p>
+
+                <!-- Portfolio Items -->
+                <div class="portfolio-item">
+                    <h2>Project 1: Stock Prices Analysis and Prediction</h2>
+                    <p>Utilized Python libraries like Pandas and Matplotlib to analyze stock price data and predict future trends using machine learning algorithms.</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+
+                <div class="portfolio-item">
+                    <h2>Project 2: E-Commerce Website Development</h2>
+                    <p>Developed a fully functional e-commerce website using HTML, CSS, and JavaScript, integrated with a backend built in Python using Flask.</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+
+                <div class="portfolio-item">
+                    <h2>Project 3: Personal Finance Management App</h2>
+                    <p>Created a cross-platform mobile app using Java and XML for managing personal finances, including budgeting and expense tracking features.</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+
+                <div class="portfolio-item">
+                    <h2>Project 4: Real-Time Chat Application</h2>
+                    <p>Designed and implemented a real-time chat application using Python for the backend and HTML/CSS for the frontend, enabling users to communicate seamlessly.</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+
+                <div class="portfolio-item">
+                    <h2>Project 5: Weather Forecasting System</h2>
+                    <p>Developed a web-based weather forecasting system using Python and JavaScript, leveraging external APIs to display real-time weather data.</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+
+                <div class="portfolio-item">
+                    <h2>Project 6: Inventory Management System</h2>
+                    <p>Built an inventory management system using C to manage stock levels, suppliers, and orders efficiently, enhancing overall business operations.</p>
+                    <a href="#" class="view-project">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

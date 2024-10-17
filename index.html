@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Iftida Hasan Alif - Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Hero Section with Header and Main Content -->
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <!-- Logo and Name -->
+                <div class="logo">
+                    <img src="E:/website cv/sdasd.png" alt="profile" class="logo-img">
+                    <div class="logo-text">Md. Iftida Hasan Alif</div>
+                </div>
+
+                <!-- Navigation Bar -->
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!-- Main Hero Content -->
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="E:/website cv/sdasd.png" alt="Profile Picture">
+                </div>
+                <div class="hero-text">
+                    <h5>Hello, I'm a <span class="input">UI/UX Designer</span></h5>
+                    <h1>Md. Iftida Hasan Alif</h1>
+                    <p>
+                        I am a passionate developer with expertise in UI/UX design, web development, and Python programming.
+                        I love creating modern, efficient, and user-friendly solutions.
+                    </p>
+
+                    <!-- Buttons -->
+                    <div class="btn-group">
+                        <a href="#" class="btn active">Download CV</a>
+                        <a href="contact.html" class="btn">Contact Me</a>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=61556486231588" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript for Navbar Toggle and Typing Effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        const togglebtn = document.querySelector(".togglebtn");
+        const nav = document.querySelector(".navlinks");
+
+        togglebtn.addEventListener("click", function () {
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        });
+
+        const typed = new Typed(".input", {
+            strings: ["UI/UX Designer", "Programmer", "Web Developer", "Python Developer"],
+            typeSpeed: 80,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+
+</body>
+</html>
